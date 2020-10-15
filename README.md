@@ -11,8 +11,8 @@ TRUST AC3-1000R utility for 443 MHz transmitter
   3. Double check the version by:
      - `gpio -v`
      - `gpio readall`
-- A sane version of CMake
-- C++14
+- A sane version of CMake (`sudo apt install cmake`)
+- C++14 (`sudo apt install build-essential`)
      
 ## Configuration
 
