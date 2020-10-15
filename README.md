@@ -7,5 +7,5 @@ mkdir build
 cd build
 cmake ..
 make
-pi443mhz
+./pi443mhz
 ```
