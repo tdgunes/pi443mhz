@@ -5,7 +5,7 @@ TRUST AC3-1000R utility for 443 MHz transmitter
 ## Requirements
 
 - Raspberry Pi 3A+ or Raspberry Pi 4
-- gpio 2.52 (Install the supplied version by `sudo dpkg -i wiringpi-latest.deb `)
+- gpio 2.52 (Remove currently installed: `sudo apt-get purge wiringpi` and install the supplied version by `sudo dpkg -i wiringpi-latest.deb `)
   - Double check the version by:
      - `gpio -v`
      - `gpio readall`
