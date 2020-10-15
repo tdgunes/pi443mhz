@@ -3,7 +3,7 @@
 ## Requirements
 
 - Raspberry Pi 3A+ 
-- gpio 2.52 (Install the supplied version)
+- gpio 2.52 (Install the supplied version by `sudo dpkg -i wiringpi-latest.deb `)
   - Double check the version by:
      - `gpio -v`
      - `gpio readall`
