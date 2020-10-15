@@ -38,3 +38,9 @@ or while in `~/pi443mhz`:
 rm -rf ./build/; mkdir build/; cd build/; cmake ..; make; ./pi443mhz
 ```
 
+## Quick Usage
+
+```
+printf "2\n1\n" | ./pi443mhz
+printf "2\n0\n" | ./pi443mhz
+```
