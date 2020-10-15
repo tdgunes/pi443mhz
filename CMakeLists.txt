@@ -7,8 +7,6 @@ set(CMAKE_VERBOSE_MAKEFILE ON)
 
 # add the executable
 add_executable(pi443mhz src/main.cpp
-                        src/NewRemoteReceiver.cpp
-                        src/NewRemoteReceiver.h
                         src/NewRemoteTransmitter.cpp
                         src/NewRemoteTransmitter.h)
 
