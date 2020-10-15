@@ -1,5 +1,9 @@
 # Server component to run 443 MHz enabled devices
 
+Install requirements:
+
+```sudo apt install python3-pip```
+
 1. Install the flask by:
 
 ```pip3 install -r requirements.txt```
