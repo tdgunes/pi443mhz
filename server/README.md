@@ -22,6 +22,16 @@ chmod +x run.sh
 ./run.sh
 ```
 
+## Manually start server with `screen`
+
+```
+sudo apt install screen
+screen -S server
+screen -r server
+./run.sh
+press and hold CTRL key, A key, and D key
+```
+
 ## To start server in case of a reboot
 
 Edit `/etc/rc.local` and add the following:
