@@ -18,7 +18,7 @@ chmod +x run.sh
 ./run.sh
 ```
 
-## Add for the server to be run in case of a reboot
+## To start server in case of a reboot
 
 Edit `/etc/rc.local` and add the following:
 
