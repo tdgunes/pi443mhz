@@ -5,14 +5,14 @@
 
 
 static unsigned long ADDRESS = 17503242; // TRUST AC3-1000R
-static unsigned short DATA_PIN = 15;
+static unsigned short DATA_PIN = 0;
 static unsigned int PULSE_RATE = 250; // Pulse rate of the protocol
 
 int main(int argc, char *argv[]){
    wiringPiSetup();
    NewRemoteTransmitter transmitter(ADDRESS, DATA_PIN, PULSE_RATE);
 
-   unsigned int device = 0;
+   unsigned int device = 2;
    bool isOn = false;
 
 
