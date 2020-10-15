@@ -51,6 +51,10 @@ printf "2\n1\n" | ./pi443mhz
 printf "2\n0\n" | ./pi443mhz
 ```
 
+## Homebridge Integration
+
+Check this [README.md](https://github.com/tdgunes/pi443mhz/tree/master/server).
+
 ## Troubleshooting
 
 Test your GPIO with [blink example](http://wiringpi.com/examples/blink/).
