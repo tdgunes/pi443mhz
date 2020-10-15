@@ -1,5 +1,7 @@
 # pi443mhz
 
+TRUST AC3-1000R utility for 443 MHz transmitter 
+
 ## Requirements
 
 - Raspberry Pi 3A+ 
