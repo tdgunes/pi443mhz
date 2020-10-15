@@ -51,4 +51,4 @@ printf "2\n0\n" | ./pi443mhz
 
 ## Troubleshooting
 
-Test your GPIO with [blink example](http://wiringpi.com/examples/blink/)
+Test your GPIO with [blink example](http://wiringpi.com/examples/blink/).
