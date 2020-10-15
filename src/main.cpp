@@ -9,14 +9,20 @@ static unsigned short DATA_PIN = 15;
 static unsigned int PULSE_RATE = 250; // Pulse rate of the protocol
 
 int main(int argc, char *argv[]){
+   wiringPiSetup();
    NewRemoteTransmitter transmitter(ADDRESS, DATA_PIN, PULSE_RATE);
 
    unsigned int device = 0;
    bool isOn = false;
 
 
+   std::cout << "Please enter device id (0, 1 or 2): " << std::endl;
+   std::cin >> device;
+
+   std::cout << "Enter off (0) or on (1) state: " << std::endl;
+   std::cin >> isOn;
+
    transmitter.sendUnit(device, isOn);
 
-   std::cout << "Hello World!" << std::endl;
    return 0;
 }
